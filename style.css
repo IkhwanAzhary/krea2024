@@ -17,36 +17,67 @@
     height: 300px;
 }
 
-/* .layanan {
-    background-color: #d1d0d0;
-} */
-
-/* .tentang {
-    background-color: #d1d0d0;
-} */
-
-/* .client {
-    background-color: #d1d0d0;
-} */
-/* #portofolio {
-    padding-top: 55px;
-} */
-
 .display-3 {
-    padding-top: 55px;
+    padding-top: 89px;
 }
 
-.lingkaran {
+
+.lingkaran1 {
     display: inline-block;
     border-radius: 50%;
     width: 150px;
     height: 150px;
     margin: auto;
     color: #FFF;
-    background-color: #dc3545;
+    background-color: #ef6c30;
 }
 
-.lingkaran i {
+.lingkaran2 {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    color: #FFF;
+    background-color: #e39b48;
+}
+
+.lingkaran3 {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    color: #FFF;
+    background-color: #7b5694;
+}
+
+.lingkaran4 {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    color: #FFF;
+    background-color: #70b8cb;
+}
+
+.lingkaran1 i {
+    position: relative;
+    top: 30px;
+}
+
+.lingkaran2 i {
+    position: relative;
+    top: 30px;
+}
+
+.lingkaran3 i {
+    position: relative;
+    top: 30px;
+}
+
+.lingkaran4 i {
     position: relative;
     top: 30px;
 }
@@ -55,9 +86,40 @@
     object-fit: cover;
 }
 
-.tim img {
+.tim1 img {
     width: 250px;
-    border: 10px solid #CCCC;
+    border: 10px solid #ef6c30;
+}
+
+.tim2 img {
+    width: 250px;
+    border: 10px solid #e39b48;
+}
+
+.tim3 img {
+    width: 250px;
+    border: 10px solid #7b5694;
+}
+
+.tim4 img {
+    width: 250px;
+    border: 10px solid #70b8cb;
+}
+
+.warna1 {
+    background-color: #ef6c30;
+}
+
+.warna2 {
+    background-color: #e39b48;
+}
+
+.warna3 {
+    background-color: #7b5694;
+}
+
+.warna4 {
+    background-color: #70b8cb;
 }
 
 a.sosial {
@@ -70,15 +132,20 @@ a.sosial {
     line-height: 40px;
 }
 
+.client {
+    background-color: linear-gradient(to right, red, blue, yellow, black);
+    display: inline-block;
+}
+
 .client img {
     height: auto;
     max-height: 100px;
 }
 
 .kontak {
-    background: url(https://wallpaperaccess.com/full/1867010.jpg) no-repeat center center;
+    background: url(img/banner.png) no-repeat center center;
     background-size: cover;
     padding-bottom: 20%;
     padding-top: 20%;
-    color: #FFF;
+    color: #000000;
 }
